@@ -1,0 +1,42 @@
+:root {
+    --main-color: #FF9292;
+    --secondary-color: #fcd8dcb6;
+    --third-color: #FFF9B6;
+    --fourth-color: #FFE699;
+}
+body {
+    background-color: var(--secondary-color);
+}
+.center {
+  text-align: center;
+}
+.bg-custom {
+    background-color: var(--main-color);
+}
+.name {
+  margin: 30px;
+}
+.main-links {
+  margin: 25px;
+  padding: 15px 20px;
+  text-decoration: none;
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  font-weight: bold;
+}
+.contact-link {
+    background-color: var(--main-color);
+    color: var(--third-color);
+}
+.contact-link:hover {
+    background-color: var(--third-color);
+    color: var(--main-color);
+}
+.about-link {
+    background-color: var(--third-color);
+    color: var(--main-color);
+}
+.about-link:hover {
+    background-color: var(--main-color);
+    color: var(--third-color);
+}

@@ -1,18 +1,18 @@
 :root {
-    --main-color: #FF9292;
-    --secondary-color: #fcd8dcb6;
-    --third-color: #FFF9B6;
-    --fourth-color: #FFE699;
+  --main-color: #ff9292;
+  --secondary-color: #fcd8dcb6;
+  --third-color: #fff9b6;
+  --fourth-color: #ffe699;
 }
 body {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .center {
   text-align: center;
 }
 .bg-custom {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 .name {
   margin: 30px;
@@ -26,35 +26,48 @@ body {
   font-weight: bold;
 }
 .contact-link {
-    background-color: var(--main-color);
-    color: var(--third-color);
+  background-color: var(--main-color);
+  color: var(--third-color);
 }
 .contact-link:hover {
-    background-color: var(--third-color);
-    color: var(--main-color);
+  background-color: var(--third-color);
+  color: var(--main-color);
 }
 .about-link {
-    background-color: var(--third-color);
-    color: var(--main-color);
+  background-color: var(--third-color);
+  color: var(--main-color);
 }
 .about-link:hover {
-    background-color: var(--main-color);
-    color: var(--third-color);
+  background-color: var(--main-color);
+  color: var(--third-color);
 }
-
 
 .launch-links {
-    background-color: var(--main-color);
-    color: var(--third-color);
-    margin: 0;
+  background-color: var(--main-color);
+  color: var(--third-color);
+  margin: 0;
 }
 .launch-links:hover {
-    background-color: var(--third-color);
-    color: var(--main-color);
+  background-color: var(--third-color);
+  color: var(--main-color);
 }
 .images {
-    width: 500px;
-    height: 500px;
-    max-width: 100%;
-    border-radius: 4px;
+  width: 500px;
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 20px;
+}
+#contact {
+  font-size: 40px;
+}
+
+.email {
+  font-size: 24px;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.email:hover {
+  color: var(--main-color);
+  text-decoration: underline;
 }

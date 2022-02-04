@@ -71,3 +71,56 @@ body {
   color: var(--main-color);
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .images {
+    margin-left: 0;
+  }
+  .about {
+    font-size: 45px;
+    margin: 20px;
+  }
+  #contact {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .email {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project p {
+    font-size: 15px;
+  }
+  .project-image-div {
+    display: flex;
+    justify-content: center;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  .launch-links {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .about-link,
+  .contact-link {
+    font-size: 15px;
+    margin: 25px 15px 0 15px;
+    padding: 15px;
+  }
+
+  .source-link-part {
+    font-size: 13px;
+  }
+}

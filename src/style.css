@@ -118,16 +118,14 @@ h3 {
 
 @media (max-width: 576px) {
   .project-title {
-    font-size: 20px;
+    font-size: 40px;
+    text-align: center;
   }
 
   .project p {
     font-size: 15px;
   }
-  .project-image-div {
-    display: flex;
-    justify-content: center;
-  }
+
   h3 {
     font-size: 20px;
   }

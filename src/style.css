@@ -5,7 +5,7 @@
   --fourth-color: #ffe699;
 }
 body {
-  background-color: var(--secondary-color);
+  background-color: #F9F7FE
   font-family: 'Poppins', sans-serif;
 }
 
@@ -48,6 +48,10 @@ h3 {
 .contact-link:hover {
   background-color: var(--third-color);
   color: var(--main-color);
+}
+
+.project-title {
+  font-size: 45px;
 }
 
 .launch-links {

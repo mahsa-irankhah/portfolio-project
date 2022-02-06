@@ -19,6 +19,15 @@ body {
   margin: 30px;
 }
 
+h1 {
+  font-size: 70px;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 .headings {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
@@ -34,18 +43,11 @@ body {
 .contact-link {
   background-color: var(--main-color);
   color: var(--third-color);
+  margin: 50px;
 }
 .contact-link:hover {
   background-color: var(--third-color);
   color: var(--main-color);
-}
-.about-link {
-  background-color: var(--third-color);
-  color: var(--main-color);
-}
-.about-link:hover {
-  background-color: var(--main-color);
-  color: var(--third-color);
 }
 
 .launch-links {

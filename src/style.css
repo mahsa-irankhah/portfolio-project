@@ -6,6 +6,7 @@
 }
 body {
   background-color: var(--secondary-color);
+  font-family: 'Poppins', sans-serif;
 }
 
 .center {
@@ -16,6 +17,11 @@ body {
 }
 .name {
   margin: 30px;
+}
+
+.headings {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
 }
 .button-links {
   margin: 25px;
@@ -70,6 +76,21 @@ body {
 .email:hover {
   color: var(--main-color);
   text-decoration: underline;
+}
+
+.icon-links {
+  text-align: center;
+}
+.icon-links i {
+  padding: 10px;
+  margin: 20px 30px;
+  font-size: 30px;
+  background-color: rgba(255, 146, 146, 0.5);
+  border-radius: 50%;
+}
+
+.icon-links a {
+  color: rgb(90, 89, 89);
 }
 
 @media (max-width: 768px) {

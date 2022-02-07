@@ -19,12 +19,12 @@ body {
   margin: 30px;
 }
 
-h1 {
+.name h1 {
   font-size: 70px;
   padding: 15px;
 }
 
-h3 {
+.name h3 {
   font-size: 20px;
 }
 
@@ -69,19 +69,11 @@ h3 {
   border-radius: 4px;
   margin: 20px;
 }
-#contact {
-  font-size: 40px;
-}
 
-.email {
-  font-size: 24px;
-  color: var(--main-color);
-  text-decoration: none;
-}
-
-.email:hover {
-  color: var(--main-color);
-  text-decoration: underline;
+.source-link-part {
+  margin-bottom: 5px;
+  padding: 0;
+  font-size: 15px;
 }
 
 .icon-links {
@@ -89,7 +81,7 @@ h3 {
 }
 .icon-links i {
   padding: 10px;
-  margin: 20px 30px;
+  margin: 10px 30px;
   font-size: 30px;
   background-color: rgba(255, 146, 146, 0.5);
   border-radius: 50%;
@@ -99,20 +91,38 @@ h3 {
   color: rgb(90, 89, 89);
 }
 
-@media (max-width: 768px) {
-  .images {
-    margin-left: 0;
+/* about page */
+.about-content {
+  padding-top: 120px;
+}
+
+.about-content h1 {
+   font-size: 50px;
+   text-align: left;
+   padding-left: 120px;
+}
+.about-content h4 {
+  text-align: left;
+  padding-left: 120px;
+}
+
+.about-content p {
+  width: 400px;
+  padding-left: 120px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.about-content img {
+  border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+  .about-content {
+    text-align: center;
   }
-  .about {
-    font-size: 45px;
-    margin: 20px;
-  }
-  #contact {
-    font-size: 30px;
-    margin-top: 20px;
-  }
-  .email {
-    font-size: 20px;
+  .about-content p {
+    padding: 0;
+    width: 100%;
   }
 }
 
@@ -135,6 +145,10 @@ h3 {
     width: 100%;
     text-align: center;
   }
+
+  .about-content {
+  padding-top: 20px;
+}
 }
 
 @media (max-width: 300px) {

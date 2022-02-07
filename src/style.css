@@ -120,6 +120,15 @@ body {
   .about-content {
     text-align: center;
   }
+  .about-content h1 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .about-content h4 {
+    text-align: center;
+    padding-left: 0;
+  }
   .about-content p {
     padding: 0;
     width: 100%;

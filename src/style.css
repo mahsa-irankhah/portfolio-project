@@ -30,6 +30,11 @@ h1 {
   color: var(--secondary-color);
 }
 
+.navbar .navbar-toggler {
+  color: #5a664c;
+  border-color: var(--third-color);
+}
+
 .center {
   text-align: center;
 }

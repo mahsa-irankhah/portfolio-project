@@ -1,12 +1,33 @@
 :root {
-  --main-color: #ff9292;
-  --secondary-color: #fcd8dcb6;
-  --third-color: #fff9b6;
-  --fourth-color: #ffe699;
+  --main-color: #C4DEA4;
+  --secondary-color: #e5ffc6;
+  --third-color: #5a664c;
+  --fourth-color: #F9F7FE;
 }
 body {
-  background-color: #F9F7FE
+  background-color: var(--fourth-color)
   font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: var(--third-color);
+}
+
+.navbar-nav li a {
+  color: var(--third-color);
+  margin: 0 5px;
+}
+
+.navbar-nav li a:hover {
+  color: var(--secondary-color);
+}
+
+.navbar-brand {
+  color: var(--third-color);
+}
+
+.navbar-brand:hover {
+  color: var(--secondary-color);
 }
 
 .center {
@@ -76,6 +97,10 @@ body {
   font-size: 15px;
 }
 
+.source-link-part a {
+  color: var(--third-color);
+}
+
 .icon-links {
   text-align: center;
 }
@@ -83,7 +108,7 @@ body {
   padding: 10px;
   margin: 10px 30px;
   font-size: 20px;
-  background-color: rgba(255, 146, 146, 0.5);
+  background-color: var(--main-color);
   border-radius: 50%;
 }
 
@@ -120,6 +145,11 @@ body {
 
 .contact-info {
   color: rgba(0, 0, 0, 0.7);
+  margin: 50px 0 20px 120px;
+}
+
+.contact-heading {
+  margin: 100px 0 20px 120px;
 }
 
 @media (max-width: 1000px) {

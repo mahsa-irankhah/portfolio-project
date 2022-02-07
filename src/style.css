@@ -116,6 +116,12 @@ body {
   border-radius: 10px;
 }
 
+/* contact page */
+
+.contact-info {
+  color: rgba(0, 0, 0, 0.7);
+}
+
 @media (max-width: 1000px) {
   .about-content {
     text-align: center;

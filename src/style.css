@@ -105,20 +105,17 @@ h1 {
   margin: 20px;
 }
 
-.source-link-part {
+footer .source-link-part {
   margin-bottom: 5px;
   padding: 0;
   font-size: 15px;
 }
 
-.source-link-part a {
+footer .source-link-part a {
   color: var(--third-color);
-}
+} 
 
-.icon-links {
-  text-align: center;
-}
-.icon-links i {
+footer .icon-links i {
   padding: 10px;
   margin: 10px 30px;
   font-size: 20px;
@@ -126,7 +123,7 @@ h1 {
   border-radius: 50%;
 }
 
-.icon-links a {
+footer .icon-links a {
   color: rgb(90, 89, 89);
 }
 

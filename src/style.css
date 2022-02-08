@@ -1,7 +1,7 @@
 :root {
   --main-color: #C4DEA4;
   --secondary-color: #e5ffc6;
-  --third-color: #5a664c;
+  --third-color: rgb(90, 102, 76);
   --fourth-color: #F9F7FE;
 }
 body {
@@ -31,16 +31,21 @@ h1 {
 }
 
 .navbar .navbar-toggler {
-  color: #5a664c;
-  border-color: var(--third-color);
+  border-color: var(--main-color);
+}
+
+.bg-custom {
+  background-color: var(--main-color);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2890, 102, 76, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .center {
   text-align: center;
 }
-.bg-custom {
-  background-color: var(--main-color);
-}
+
 .name {
   margin: 30px;
 }

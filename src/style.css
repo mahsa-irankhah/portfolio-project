@@ -208,6 +208,10 @@ h1 {
   .work-images {
     margin: 0 auto
   }
+
+  .contact-heading, .contact-info {
+    margin-left: 20px;
+  }
 }
 
 @media (max-width: 300px) {

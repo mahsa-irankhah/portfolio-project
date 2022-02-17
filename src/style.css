@@ -104,6 +104,9 @@ section {
   color: var(--third-color);
 }
 
+.works-heading {
+  margin-bottom: 100px;
+}
 .project-title {
   font-size: 45px;
 }
@@ -155,32 +158,88 @@ footer .icon-links a {
 .about-content h1 {
    font-size: 50px;
    text-align: left;
-   padding-left: 120px;
+   padding-left: 50px;
+   padding-bottom: 15px;
 }
 .about-content h4 {
   text-align: left;
-  padding-left: 120px;
+  padding-left: 50px;
+  padding-bottom: 20px;
 }
 
 .about-content p {
-  width: 400px;
-  padding-left: 120px;
+  width: 600px;
+  padding-left: 50px;
   color: rgba(0, 0, 0, 0.7);
+  line-height: 1.5;
+  font-size: 18px;
+}
+.about-content ul {
+  padding-left: 70px;
+  list-style: square;
+  color: var(--third-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.picture-border {
+  border: 5px solid var(--third-color);
+  border-radius: 10px;
+  width: 380px;
+  height: 630px;
+  margin-left: 100px;
 }
 
 .about-content img {
   border-radius: 10px;
+  position: relative;
+  top: 18px;
+  left: -20px;
+  filter: grayscale(50%) saturate(0.25) opacity(1) brightness(65%) contrast(100%) hue-rotate(253deg);
+    -webkit-filter: grayscale(50%) saturate(0.25) opacity(1) brightness(65%) contrast(100%) hue-rotate(253deg);
+    transition: all 0.15s ease-in;
 }
 
-/* contact page */
+.about-content img:hover {
+  filter: none;
+}
 
+/* contact section */
+
+#contact {
+  width: 700px;
+  max-width: 80%;
+  background: linear-gradient(45deg, var(--main-color), var(--secondary-color));
+  margin: 50px auto;
+  margin-top: 120px;
+  padding: 40px 100px;
+  border-radius: 15px;
+}
+
+#contact h2 {
+  margin: 10px 0;
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#contact h6 {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
 .contact-info {
   color: rgba(0, 0, 0, 0.7);
-  margin: 50px 0 20px 120px;
+  margin: 0;
 }
 
 .contact-heading {
   margin: 100px 0 20px 120px;
+}
+
+.contact-info p {
+  font-size: 17px;
+  font-weight: 600;
 }
 
 @media (max-width: 1000px) {

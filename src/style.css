@@ -99,6 +99,11 @@ section {
   color: var(--third-color);
 }
 
+.my-work-link:hover {
+  border: 3px solid var(--third-color);
+  color: var(--third-color);
+}
+
 
 .project-title {
   font-size: 45px;

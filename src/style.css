@@ -4,9 +4,14 @@
   --third-color: rgb(90, 102, 76);
   --fourth-color: #F9F7FE;
 }
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   background-color: var(--fourth-color)
-  font-family: 'Poppins', sans-serif;
+  
 }
 
 h1 {
